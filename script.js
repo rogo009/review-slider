@@ -21,6 +21,9 @@ const next = document.getElementById('next');
 //     }
 // }
 
+
+// function declarations
+
 const nextSlide = () => {
     const current = document.querySelector('.current');
     current.classList.remove('current');
